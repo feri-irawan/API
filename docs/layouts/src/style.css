@@ -1,0 +1,66 @@
+* {
+  font-family: 'Inter', Sans-Serif;
+}
+html,
+body {
+  animation: opacity 0.3s;
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+code * {
+  font-family: var(--bs-font-monospace);
+}
+
+#form-province,
+#form-regency {
+  height: 10rem;
+}
+
+#province-symbol,
+#regency-symbol {
+  width: 10rem;
+  min-height: 10rem;
+  overflow: hidden;
+}
+
+.tagify__input {
+  padding: 0.2rem 0.5rem;
+}
+
+.tagify__dropdown__wrapper {
+  border-radius: 0 0 0.3rem 0.3rem;
+}
+
+.bi-arrow-clockwise {
+  animation: loading 1s infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes loading {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.card {
+  overflow: hidden;
+}
+
+.dark,
+.dark *,
+.dark *::before,
+.dark *::after {
+  background-color: var(--bs-dark) !important;
+  color: var(--bs-light) !important;
+  border-color: var(--bs-light);
+}
+.dark [class^='language-'] {
+  color: normal;
+}

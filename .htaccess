@@ -1,0 +1,22 @@
+ErrorDocument 404 https://feriirawan-api.herokuapp.com/error/404/
+
+RewriteEngine On
+
+# Error
+# ========================================
+RewriteRule ^error/404/$ /route/errors/404.php [L]
+
+# BMKG
+# ========================================
+RewriteRule ^list/bmkg$ /list/bmkg/index.php [L]
+
+
+# List Lambang Provinsi Seluruh Indonesia
+# ========================================
+# Include data lambang provinsi dan kabupaten
+RewriteRule ^list/symbols/include/province$ /list/lambang-daerah-indonesia/include/province.php [L]
+RewriteRule ^list/symbols/include/regency$ /list/lambang-daerah-indonesia/include/regency.php [L]
+
+# Endpoint Provinsi & Kabupaten
+RewriteRule ^list/symbols/([^/]*)/([^/]*)$ /list/lambang-daerah-indonesia/index.php?data=$1&size=$2 [L]
+RewriteRule ^list/symbols/([^/]*)/([^/]*)/([^/]*)$ /list/lambang-daerah-indonesia/include/symbols.php?data=$1&index=$2&size=$3 [L]

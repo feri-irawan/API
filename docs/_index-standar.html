@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/styles/atom-one-light.min.css" />
+    <script src="https://cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.2.0/build/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll()
+    </script>
+    <style>
+      * {
+        font-family: 'Inter', Sans-Serif;
+      }
+      code * {
+        font-family: var(--bs-font-monospace);
+      }
+    </style>
+    <title>FI API - {{NAMA API}}</title>
+  </head>
+  <body>
+    <header class="navbar navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand" href="#">FI API - {{NAMA API}}</a>
+      </div>
+    </header>
+    <section style="min-height: 80vh" class="container bg-white p-3">
+      <h1 class="mb-5 text-center"><span class="title"></span></h1>
+
+      <div id="docContent"></div>
+    </section>
+    <footer>
+      <div class="container p-3 text-center">2021 Made with &hearts; by <a href="https://feri-irawan.netlify.app" class="text-decoration-none">Feri Irawan</a></div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+      Tulis('.title', ['Daftar Dokumentasi API'])
+
+      function Tulis(selector, text, loop = false) {
+        new Typed(selector, {
+          typeSpeed: 70,
+          loop,
+          strings: text,
+        })
+      }
+    </script>
+  </body>
+</html>
