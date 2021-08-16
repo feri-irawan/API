@@ -1,5 +1,7 @@
 # Kumpulan API by Feri Irawan
-<br>
+
+![Visitor](https://visitor-badge.feriirawann.repl.co?username=feri-irawan&repo=API)
+
 *Bismillahirrahmanirrahim*.
 
 Berikut ini daftar Public API by Feri Irawan, semoga bermanfaat. :fire:
