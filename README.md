@@ -4,6 +4,9 @@
 
 *Bismillahirrahmanirrahim*.
 
+Lihat juga dokumentasinya di:
+https://feriirawan-api.herokuapp.com/docs/
+
 Berikut ini daftar Public API by Feri Irawan, semoga bermanfaat. :fire:
 
 ### Infomasi Umum
