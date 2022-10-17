@@ -1,6 +1,6 @@
 # Kumpulan API by Feri Irawan
 
-![Visitor](https://visitor-badges.glitch.me?username=feri-irawan&repo=API)
+![Visitor](https://visitor-badge.feriirawann.repl.co?username=feri-irawan&repo=API)
 
 *Bismillahirrahmanirrahim*.
 
